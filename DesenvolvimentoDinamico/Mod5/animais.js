@@ -15,3 +15,5 @@ console.log("Resultado de replace: " + substituirAnimal2);
 
 // Exemplo do metodo concat()
 // Concatena as strings "Elefante", "Girafa" e "Zebra" com espaços entre elas 
+let animaisJuntos = animal1.concat(" ", animal2, " ", animal3);
+console.log("Resultado de concat: " + animaisJuntos);

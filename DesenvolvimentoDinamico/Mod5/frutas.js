@@ -16,3 +16,14 @@ let frutasComEspaco = "          abacate          ";
 // Queremos remover os espaços em branco do inicio e do final da string
 let frutasSemEspaco = frutasComEspaco.trim();
 console.log("Resultado do trim: " + frutasSemEspaco);
+
+
+// Exemplo de uso do metedo split()
+// Temos uma string de varias frutas separadas por virgulas 
+let listaDeFrutas = "maçã,banana,laranja,uva,abacaxi";
+
+// Queremos dividir a string em um array de substrings, usando a virgula com separador 
+let arrayDeFrutas = listaDeFrutas.split(",");
+console.log("Resultado do split: " + arrayDeFrutas);
+
+// Testando cada fruta separadamente 
